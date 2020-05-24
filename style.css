@@ -89,6 +89,8 @@ section::before {
 #ach {
   grid-column: 2 / 6;
   text-align: center;
+  padding-top: 3.5em;
+  margin-top: -3.5em;
 }
 
 #projects,
@@ -139,6 +141,8 @@ footer {
   #ach {
   grid-column: span 6;
   justify-self: center;
+  padding-top: 0;
+  margin-top: 0;
 }
   
   #projects,
