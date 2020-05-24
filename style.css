@@ -72,7 +72,7 @@ section::before {
 
 #welcome-section {
   min-height: 100vh;
-  grid-columne-gap: 2em;
+  grid-column-gap: 2em;
 }
 
 #profile {
