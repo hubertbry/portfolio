@@ -45,12 +45,21 @@ a:hover {
   max-width: 150px;
 }
 
+.project-tile > p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+figure {
+  margin: 0;
+}
+
 /* Below is a scroll offset solution adapted from https://css-tricks.com/hash-tag-links-padding/ */
 
 section::before {
   display: block;
   content: " ";
-  margin-top: 50px;
+  margin-top: 100px;
   visibility: hidden;
   pointer-events: none;
 }
@@ -88,10 +97,10 @@ section::before {
 .title,
 #projects-section,
 #ach {
-  grid-column: 2 / 6;
-  text-align: center;
-  padding-top: 3.5em;
-  margin-top: -3.5em;
+	grid-column: 2 / 6;
+	text-align: center;
+	padding-top: 3.5em;
+	margin-top: -3.5em;
 }
 
 #projects,
